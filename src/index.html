@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <div id="root">
@@ -16,14 +17,20 @@
   <button id="entrada">SIGUIENTE</button>
   </div>
   <div class="">
-<h1>...</h1>
-    <textarea name="mensaje" rows="10s" cols="80">Escribe aquí tu mensaje
-    </textarea>
- <h2><button id="misterio">CÓDIGO</button><input type="pasword" name="misterio" value="">
- </h2>
- <textarea name="resultado" rows="10" cols="80">Esperando mensaje</textarea>
-<h2><button id="fin">FINALIZAR</button>
-</h2>
+<h1>...</h1><br>
+  <form class="" action="index.html" method="post">
+    <textarea id="mensaje" name="mensaje" rows="10s" cols="80">Escribe aquí tu mensaje
+      </textarea>
+  </form>
+  </div>
+    <div>
+      <input id="password" type="number" name="misterio" value=""><br>
+      <button id="misterio">CÓDIGO</button>
+
+<form class="" action="index.html" method="post">
+  <p>TU PALABRA CIFRADA ES <span id="resultado"></span></p><br>
+ <button id="fin">FINALIZAR</button>
+</form>
   </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
