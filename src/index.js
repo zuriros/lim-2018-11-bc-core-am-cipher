@@ -1,20 +1,20 @@
-const ambos =document.getElementById('mensaje');
-const numb= document.getElementById('password');
-const btnCodigo = document.getElementById('misterio');
-const boxResult= document.getElementById('resultado');
+const firstText =document.getElementById('mensaje');
+const numbCod= document.getElementById('codigo');
+const secondText = document.getElementById('mensaje2');
+const passwordInput= document.getElementById('numb');
 
-function cifrar(string,offset) {
-  let cifrada="";
+numbCod.addEventListener('click', () => {
+  secondText.innerHTML = cipher1(firstText.value,parseInt(passwordInput.value))
+});
+
+
+function cipher1(string,offset) {
+  let blankEspace=""
 for (var i = 0; i < string.length; i++) {
-    ascii=string.charCodeAt(i);
-    formula=(ascii-65+offset)%26+65;
-    cifrada += String.fromCharCode(formula);
+    codCipher=string.charCodeAt(i);
+    offsetformula=(codCipher-65+offset)%26+65;
+    letterCod= String.fromCharCode(offsetformula);
+    blankEspace+=letterCod;
 }
-  return cifrada;
+  return blankEspace;
 }
-
-
-
-btnCodigo.addEventListener('click', () => {
-  boxResult.innerHTML = cifrar(ambos.value,parseInt(numb.value));
-})
