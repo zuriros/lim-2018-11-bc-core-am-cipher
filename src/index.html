@@ -4,35 +4,38 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-
   </head>
   <body>
-    <div id="root">
-      <h1>BIENVENIDO  A ARACEFA</h1>
-      <h2>INSTRUCCIONES PARA EL USUARIO</h2>
-      <p>
-    <li>Es un medio por el cual podrás comunicarte sin preocupación </li>
-    <li>Por favor escribir el mensaje solo en mayúsculas</li>
-  </p>
-  <button id="entrada">SIGUIENTE</button>
-  </div>
-  <div class="">
-<h1>...</h1><br>
-  <form >
-    <textarea id="mensaje" name="mensaje" rows="10s" cols="80" placeholder="Escribe aquí tu mensaje"></textarea>
-  </form>
-  </div>
-    <div>
-      <input id="numb" type="number" name="misterio" ><br>
-      <button >CÓDIGO</button><br>
+
+    <div id="pantalla_1">
+      <h1 class="textwhite">BIENVENIDO  A ARACEFA</h1>
+      <h2 class="textwhite">INSTRUCCIONES PARA EL USUARIO</h2>
+       <lu class="textwhite">
+        <li>El usuario no puede ingresar números ni.... </li>
+        <li>El receptor debe saber el código de el emisor.</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </lu>
+     <button id="entrada" class="black">SIGUIENTE</button>
+   </div>
+
+    <div id="pantalla_2">
+      <!--<textarea id="mensaje" name="mensaje" rows="10s" cols="80" placeholder="Escribe aquí tu mensaje"></textarea><br>-->
+      <h1>ARACEFA</h1>
+      <h3>Empieza por cifrar o descifrar tu mensaje </h3>
+      <textarea type="text" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+      <h3>Elije tu código</h3>
+      <p class="letterStyle">CÓDIGO:<input type="number" id="number" value=""></P>
       <button id="enciph">CIFRAR</button>
       <button id="deciph">DESCIFRAR</button>
+      <P type="text" class="letterStyle" placeholder="TU MENSAJE ES..."><span id="mensaje2"></span></p>
+     <button id="fin">FINALIZAR</button>
+     <button>ENVIAR</button>
+   </div>
 
-<form class="" action="index.html" method="post">
-  <p>TU PALABRA CIFRADA ES <span id="mensaje2"></span></p><br>
- <button id="fin">FINALIZAR</button>
-</form>
-  </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

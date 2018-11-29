@@ -1,0 +1,86 @@
+ body {
+  background-image: url("./imagen/dark-daylight-eerie-1165982.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Latin Modern Roman 10";
+  font-style: oblique;
+  /* width: 50%;
+  height: 50%; */
+}
+/* pantalla_1:asignando estilos. */
+#pantalla_1{
+  width: 450px;
+  margin:auto;
+  background: rgba(190,125,0,0.3);
+  padding:20px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  /* align:center;
+  transform: translate(15%,40%) */
+  h1{
+    text-align: center;
+    margin:0;
+    font-size: 70px;
+    margin-bottom: 20px;
+
+
+
+  }
+}
+.textwhite {
+  color:white;
+}
+
+#entrada{
+  font-size: 24px;
+  border-radius: 50px;
+  border: 2px solid gray;
+  transform: translate(60%,10%);
+  background: rgba(25,130,10,0.3);
+  padding: 20px;
+
+}
+ #entrada.hover{
+   cursor: pointer;
+  background-color:rgba(59,69,67,0.3);
+  color:white;
+}
+ /* AGREGANDO ESTILOS A LA PANTALLA_2 */
+#pantalla_2{
+  margin:auto;
+  width: 450px;
+  background: rgba(190,125,0,0.3);
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  /* transform: translate(10%,20%) */
+}
+h1{
+  color:white;
+  text-align: center;
+  margin: 0;
+  font-size:30px;
+  margin-bottom: 20px;
+}
+h3{
+  color:white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+
+}
+#mensaje{
+  height: auto;
+  width: 100%;
+}
+input,textarea{
+  margin-bottom: 20px;
+  padding: 10px
+}
+P.letterStyle{
+  color:white;
+  text-align: center;
