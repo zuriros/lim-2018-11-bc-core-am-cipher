@@ -1,5 +1,5 @@
 
-function cipher1(string,offset) {
+function cipher1(offset,string) {
   let blankEspace = "";
   let codCipher = "";
   let offsetformula = "";
@@ -31,7 +31,7 @@ else if (codCipher===32) {
   // Empezando con el descirado
 
 
-function decipher1(string,offset) {
+function decipher1(offset,string) {
   let blankSpaceSec = "";
   let codDecipher = "";
   let offsetDez = "";

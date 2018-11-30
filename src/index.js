@@ -25,10 +25,10 @@ theLast.addEventListener("click",()=>{
 
 // Insertando eventos para el cifrado y descifrado.
 numbCod.addEventListener('click', function() {
-  secondText.innerHTML = cipher.encode(firstText.value,parseInt(passwordInput.value));
+  secondText.innerHTML = cipher.encode(parseInt(passwordInput.value),firstText.value);
 });
 
 
 numbCodTwo.addEventListener('click',function(){
-  secondText.innerHTML = cipher.decode(firstText.value,parseInt(passwordInput.value));
+  secondText.innerHTML = cipher.decode(parseInt(passwordInput.value),firstText.value);
 });
