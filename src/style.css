@@ -17,19 +17,16 @@
   padding:20px 20px;
   box-sizing: border-box;
   margin-top: 50px;
-  border-radius: 10px;
+  border-radius: 10px;}
   /* align:center;
   transform: translate(15%,40%) */
-  h1{
+  #texth1{
     text-align: center;
     margin:0;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 20px;
-
-
-
   }
-}
+
 .textwhite {
   color:white;
 }
@@ -76,11 +73,43 @@ h3{
 #mensaje{
   height: auto;
   width: 100%;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
 }
 input,textarea{
   margin-bottom: 20px;
-  padding: 10px
+  padding: 10px;
+  box-sizing:border-box;
+  font-size: 20px;
+  border-radius: 10px;
 }
+
 P.letterStyle{
   color:white;
   text-align: center;
+}
+.finalstyle{
+background:rgba(83,102,100,0.3);
+color:white;
+font-size: 25px;
+border-radius: 25px;
+border:2px solid gray;
+padding:20px;
+text-align: center;
+transform:translate(27%,0%);
+font-style: oblique;
+}
+#fin{
+  transform: translate(70%,0%);
+
+}
+@media(max-width:480px){
+  #pantalla_1{
+    width: 100%;
+  }
+  #pantalla_2{
+    width: 100%
+  }
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
