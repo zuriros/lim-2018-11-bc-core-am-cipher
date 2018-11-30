@@ -1,3 +1,32 @@
+# Cifrado ARACEFA
+
+##Problema propuesto:
+###*Muchas de las personas que se encargan de investigar casos, ya sea un caso simple o complejo,temian que la información brindada, a sus colegas o personas con las que colaboran,sea filtrada y para despues ser expuesta elevando la probabilidad de que el caso no llegue a resolverse.*
+![Sin titulo](./imagen/Detective-privado.jpg)
+
+##Resolución del problema:
+###*Se realizo la creacion de la aplicacion requerida ; el cual nos facilita el cifrado y descrifado de cualquier mensaje que sea enviado. Para lo cual es primordial que el usuario indique el código que usara para cifrar el mensaje y nosotros lo usaremos para descifrar.*
+
+##Objetivos del producto:
+###*Esta aplicacion tiene como objetivo,poder apoyar al cifrado y descifrado de cualquier mensaje escrito en español para así, la información brindada no sea expuesta;dando la facilidad al usuario de poder exponer sus mensajes sin temor a que sean descubiertos.*
+##Usuarios del producto:
+###*Esta aplicacion esta hecha para poder brindar información sin temor a que esta sea descubierta; para lo cual podemos cifrar y descifrar cualquier mensaje .
+
+Persona con mensaje cifrado
+Persona con mensaje a cifrar*
+
+##Instalación:
+###*Esta aplicacion no necesita instalacion , solo debemos de ingresar al sgte enlace y podremos usarlo: https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src*  
+
+![Sin titulo](./imagen/captura.png)
+
+
+
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -15,7 +44,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-## Resumen del proyecto
+<!-- ## Resumen del proyecto
 
 ¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
 
@@ -24,10 +53,10 @@ La temática es libre. Tú debes pensar en qué situaciones de la vida real se n
 - Crear claves seguras para el email.
 - Encriptar/cifrar una tarjeta de crédito.
 - Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
+- Mensajería secreta para parejas. -->
 
 
-## Consideraciones generales
+<!-- ## Consideraciones generales
 
 - Este proyecto se debe resolver de manera individual.
 - El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
@@ -51,11 +80,11 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z -->
 
 #### Definición del producto
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+<!-- En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz. -->
 
 - Quiénes son los principales usuarios de producto.
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
@@ -70,7 +99,7 @@ La interfaz debe permitir al usuario:
 - Insertar un mensaje (texto) a descifrar.
 - Ver el resultado del mensaje descifrado.
 
-#### Scripts / Archivos
+<!-- #### Scripts / Archivos
 
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
@@ -89,17 +118,17 @@ La interfaz debe permitir al usuario:
 * `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
-  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
+  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`. -->
 
-## Parte opcional o “Hacker edition”
+<!-- ## Parte opcional o “Hacker edition”
 
 Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
 
-Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también esta caso por tu cuenta.
+Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también esta caso por tu cuenta. -->
 
-## Vamos a los detalles. Consideraciones Técnicas
+<!-- ## Vamos a los detalles. Consideraciones Técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto NO está permitido usar librerías o frameworks, sólo
@@ -219,7 +248,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -229,8 +258,8 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. A codear se ha dicho! :rocket:
-
-## Recursos y temas relacionados
+ -->
+<!-- ## Recursos y temas relacionados
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
@@ -243,8 +272,8 @@ Diseño de experiencia de usuario (User Experience Design):
 - Ideación
 - Prototipado (sketching)
 - Testeo e Iteración
-
-Desarrollo Front-end:
+ -->
+<!-- Desarrollo Front-end:
 
 * Valores
 * Tipos
@@ -262,8 +291,8 @@ Herramientas:
 
 ## Checklist
 Esta sección está  para ayudarte a llevar un control de lo que vas completando.
-
-### Parte Obligatoria
+ -->
+<!-- ### Parte Obligatoria
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
@@ -287,4 +316,4 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 ### Parte Opcional: "Hacker edition"
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+* [ ] Permite usar un `offset` negativo. -->
