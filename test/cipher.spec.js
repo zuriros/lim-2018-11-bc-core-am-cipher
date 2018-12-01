@@ -11,13 +11,13 @@ describe('cipher', () => {
     });
 
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33',() =>{
-      assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG")
+      assert.equal(cipher.encode(33,"ABCDEFGHIJKLMNOPQRSTUVWXYZ"),"HIJKLMNOPQRSTUVWXYZABCDEFG")
     });
     it('debería retornar "def" para "abc" con offest 3',() =>{
-      assert.equal(cipher.encode("abc",3),"def")
+      assert.equal(cipher.encode(3,"abc"),"def")
     });
     it('debería retornar " " cuando tu cipher sea ==32',() =>{
-      assert.equal(cipher.encode(" ",32)," ")
+      assert.equal(cipher.encode(32," ")," ")
     });
   });
 
@@ -28,13 +28,13 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33',() =>{
-      assert.equal(cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG",33),"ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+      assert.equal(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG"),"ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     });
     it('debería retornar "abc" para "def" con offest 3',() =>{
-      assert.equal(cipher.decode("def",3),"abc")
+      assert.equal(cipher.decode(3,"def"),"abc")
     });
     it('debería retornar " " cuando tu cipher sea ==32',() =>{
-      assert.equal(cipher.decode(" ",32)," ")
+      assert.equal(cipher.decode(32," ")," ")
     });
   });
 

@@ -10,17 +10,17 @@ function cipher1(offset,string) {
   for (let i = 0; i < string.length; i++) {
      codCipher=string.charCodeAt(i);
     if (codCipher>=65 && codCipher<=90) {
-    offsetformula=(codCipher - 65 + parseInt(offset))%26+65;
-    letterCod= String.fromCharCode(offsetformula);
+     offsetformula=(codCipher - 65 + parseInt(offset))%26+65;
+     letterCod= String.fromCharCode(offsetformula);
   // OTRA FORMA DE CONCATENAR blankEspace+= String.fromCharCode(offsetformula);
- blankEspace+=letterCod;
+     blankEspace+=letterCod;
 }
      else if (codCipher>=97 && codCipher<=122) {
      offsetFormulaLower=(codCipher-97+parseInt(offset))%26+97;
      letterCodLower=String.fromCharCode(offsetFormulaLower);
      blankEspace+=letterCodLower;
      }
-else if (codCipher===32) {
+else if(codCipher===32) {
        hole=String.fromCharCode(codCipher);
     blankEspace+=hole;
 }
@@ -49,7 +49,7 @@ function decipher1(offset,string) {
     offsetDezLower=(codDecipher-122-parseInt(offset))%26+122;
     letterDecodeLower=String.fromCharCode(offsetDezLower);
      blankSpaceSec+=letterDecodeLower;
-  } else if(codDecipher===32){
+  } else if (codDecipher===32){
     holeSecond=String.fromCharCode(codDecipher);
     blankSpaceSec+=holeSecond;
   }
