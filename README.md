@@ -21,7 +21,7 @@ Persona con mensaje a cifrar*
 
 
 ![Sin titulo](imagen/Captura.png)
-
+![Sin titulo](imagen/dark-daylight.jpg)
 
 
 
