@@ -16,9 +16,11 @@ Persona con mensaje cifrado
 Persona con mensaje a cifrar*
 
 ##Instalación:
-###*Esta aplicacion no necesita instalacion , solo debemos de ingresar al sgte enlace y podremos usarlo: https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src*  
+###Esta aplicacion no necesita instalacion , solo debemos de ingresar al sgte enlace y podremos usarlo: https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src  
 
-![Sin titulo](imagen/Captura.PNG)
+
+
+![Sin titulo](imagen/Captura.png)
 
 
 
