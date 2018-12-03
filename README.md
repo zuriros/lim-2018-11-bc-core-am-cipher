@@ -1,35 +1,6 @@
 # Cifrado ARACEFA
 
-##Problema propuesto:
-###*Muchas de las personas que se encargan de investigar casos, ya sea un caso simple o complejo,temian que la información brindada, a sus colegas o personas con las que colaboran,sea filtrada y para despues ser expuesta elevando la probabilidad de que el caso no llegue a resolverse.*
-![Sin titulo](./imagen/Detective-privado.jpg)
-
-##Resolución del problema:
-###*Se realizo la creacion de la aplicacion requerida ; el cual nos facilita el cifrado y descrifado de cualquier mensaje que sea enviado. Para lo cual es primordial que el usuario indique el código que usara para cifrar el mensaje y nosotros lo usaremos para descifrar.*
-
-##Objetivos del producto:
-###*Esta aplicacion tiene como objetivo,poder apoyar al cifrado y descifrado de cualquier mensaje escrito en español para así, la información brindada no sea expuesta;dando la facilidad al usuario de poder exponer sus mensajes sin temor a que sean descubiertos.*
-##Usuarios del producto:
-###*Esta aplicacion esta hecha para poder brindar información sin temor a que esta sea descubierta; para lo cual podemos cifrar y descifrar cualquier mensaje .
-
-Persona con mensaje cifrado
-Persona con mensaje a cifrar*
-
-##Instalación:
-###Esta aplicacion no necesita instalacion , solo debemos de ingresar al sgte enlace y podremos usarlo: https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src  
-
-
-
-![Sin titulo](imagen/Captura.png)
-![Sin titulo](imagen/dark-daylight.jpg)
-
-
-
-
-
-
-
-# Cifrado César
+## Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -45,6 +16,62 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+
+##Problema propuesto:
+
+ Los investigadores suelen recopilar, registrar y posteriormente presentar a sus colegas(compartir la información ) o a la base de datos de la oficina central, las pruebas o la información clasificada;se encontró algunos problemas, debido a la falta de seguridad para evitar que la información clasificada sea expuesta, la probabilidad de que estas sean descubiertas es altísima, ya que no disponen de un sistema de seguridad que pueda proteger esta información.
+
+![Sin titulo](../imagen/Detective-privado.jpg)
+
+##Resolución del problema:
+
+Se realizó la creación de la aplicación requerida ; el cual nos ayuda con el cifrado y descrifado de cualquier mensaje que sea enviado; estos van acompañados de un código para realizar dichas actividades ; estos son elegidos e introducidos por el usuario, así evitando que la información brindada sea expuesta.
+ <!-- Para lo cual es primordial que el usuario indique el código que usara para cifrar el mensaje y nosotros lo usaremos para descifrar. -->
+
+##Objetivos del producto:
+
+Esta aplicación tiene como objetivo, elevar la protección de la información confidencial, para así brindar la completa seguridad de no ser expuesta, haciendo que el usuario se sienta protegido al compartir dicha información.
+
+##Usuarios del producto:
+
+Esta aplicación esta hecha para aquellas personas que son parte de casos de investigación, ya sea un caso simple o complejo, y requieren un medio por el cual puedan comunicarse sin temor a que la información sea expuesta; para lo cual podemos cifrar y descifrar cualquier mensaje.
+
+Persona con mensaje cifrado
+Persona con mensaje a cifrar
+
+##Instalación:
+
+Esta aplicacion no necesita instalacion , solo debemos de ingresar al siguiente enlace y podremos usarlo: https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src  
+
+
+
+![Sin titulo](../imagen/primera-foto.png)
+
+
+![Sin titulo](imagen/segunda-foto.png)
+
+
+
+
+
+
+
+<!-- # Cifrado César
+
+Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+
+![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
+El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+
+Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+
+- La letra A se cifra como D.
+- La palabra CASA se cifra como FDVD.
+- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13. -->
 
 <!-- ## Resumen del proyecto
 
@@ -84,11 +111,11 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 - A B C D E F G H I J K L M N O P Q R S T U V W X Y Z -->
 
-#### Definición del producto
+<!-- #### Definición del producto
 
 <!-- En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz. -->
 
-- Quiénes son los principales usuarios de producto.
+<!-- - Quiénes son los principales usuarios de producto.
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
@@ -99,7 +126,7 @@ La interfaz debe permitir al usuario:
 - Insertar un mensaje (texto) que queremos cifrar.
 - Ver el resultado del mensaje cifrado.
 - Insertar un mensaje (texto) a descifrar.
-- Ver el resultado del mensaje descifrado.
+- Ver el resultado del mensaje descifrado. --> -->
 
 <!-- #### Scripts / Archivos
 
