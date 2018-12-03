@@ -11,7 +11,7 @@
 }
 /* pantalla_1:asignando estilos. */
 #pantalla_1{
-  width: 450px;
+  width: 500px;
   margin:auto;
   background: rgba(190,125,0,0.3);
   padding:20px 20px;
@@ -20,22 +20,25 @@
   border-radius: 10px;}
   /* align:center;
   transform: translate(15%,40%) */
-  #texth1{
+  h1{
     text-align: center;
     margin:0;
     font-size: 50px;
     margin-bottom: 20px;
+    color:white;
   }
 
 .textwhite {
   color:white;
+  font-size: 25px;
 }
+/* .secondtextwhite{} */
 
 #entrada{
   font-size: 24px;
   border-radius: 50px;
   border: 2px solid gray;
-  transform: translate(60%,10%);
+  transform: translate(80%,10%);
   background: rgba(25,130,10,0.3);
   padding: 20px;
 
@@ -48,7 +51,7 @@
  /* AGREGANDO ESTILOS A LA PANTALLA_2 */
 #pantalla_2{
   margin:auto;
-  width: 450px;
+  width: 500px;
   background: rgba(190,125,0,0.3);
   padding: 20px 20px;
   box-sizing: border-box;
@@ -56,11 +59,11 @@
   border-radius: 10px;
   /* transform: translate(10%,20%) */
 }
-h1{
+h2{
   color:white;
   text-align: center;
   margin: 0;
-  font-size:30px;
+  font-size:50px;
   margin-bottom: 20px;
 }
 h3{
@@ -68,18 +71,23 @@ h3{
   text-align: center;
   margin: 0;
   margin-bottom: 20px;
+  font-size: 25px;
 
 }
 #mensaje{
   height: auto;
   width: 100%;
-  min-height: 100px;
+  min-height: 70px;
   max-height: 200px;
   max-width: 100%;
+  min-width: 100%;
+  font-size: 30px;
+
 }
+
 input,textarea{
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 19px;
   box-sizing:border-box;
   font-size: 20px;
   border-radius: 10px;
@@ -97,11 +105,23 @@ border-radius: 25px;
 border:2px solid gray;
 padding:20px;
 text-align: center;
-transform:translate(27%,0%);
+transform:translate(50%,0%);
 font-style: oblique;
 }
+
+#mensaje2{
+  height: auto;
+  width: 100%;
+  min-height: 70px;
+  max-height: 200px;
+  max-width:100%;
+  min-width: 100%;
+  margin-top:20px;
+  font-size: 30px;
+}
+
 #fin{
-  transform: translate(70%,0%);
+  transform: translate(80%,0%);
 
 }
 @media(max-width:480px){

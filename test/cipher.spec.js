@@ -19,6 +19,9 @@ describe('cipher', () => {
     it('debería retornar " " cuando tu cipher sea ==32',() =>{
       assert.equal(cipher.encode(32," ")," ")
     });
+    it('debería retornar "á13ñ" para "á13ñ" con offest 3',() =>{
+      assert.equal(cipher.encode(3,"á13ñ"),"á13ñ")
+    });
   });
 
   describe('cipher.decode', () => {
@@ -35,6 +38,9 @@ describe('cipher', () => {
     });
     it('debería retornar " " cuando tu cipher sea ==32',() =>{
       assert.equal(cipher.decode(32," ")," ")
+    });
+    it('debería retornar "á13ñ" para "á13ñ" con offest 3',() =>{
+      assert.equal(cipher.decode(3,"á13ñ"),"á13ñ")
     });
   });
 

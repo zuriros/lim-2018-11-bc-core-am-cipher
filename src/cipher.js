@@ -20,10 +20,13 @@ function cipher1(offset,string) {
      letterCodLower=String.fromCharCode(offsetFormulaLower);
      blankEspace+=letterCodLower;
      }
-else if(codCipher===32) {
+    else if (codCipher===32) {
        hole=String.fromCharCode(codCipher);
     blankEspace+=hole;
 }
+    else{
+      blankEspace+=string.charAt(i);
+    }
  }
  return blankEspace;
   }
@@ -52,6 +55,9 @@ function decipher1(offset,string) {
   } else if (codDecipher===32){
     holeSecond=String.fromCharCode(codDecipher);
     blankSpaceSec+=holeSecond;
+  }
+  else {
+    blankSpaceSec+=string.charAt(i);
   }
     }
 return blankSpaceSec;

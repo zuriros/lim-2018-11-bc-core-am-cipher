@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -7,28 +7,27 @@
   </head>
   <body>
 
-    <div id="pantalla_1">
-      <h1 id="texth1" class="textwhite">BIENVENIDO  A ARACEFA</h1>
+    <section id="pantalla_1">
+      <h1>BIENVENIDO  A ARACEFA</h1>
       <h2 class="textwhite">INSTRUCCIONES PARA EL USUARIO</h2>
-       <lu class="textwhite">
+       <ul class="textwhite">
         <li>El usuario no puede ingresar:números,las virgulillas
         y los demas signos. </li>
         <li>El receptor debe saber el código de el emisor.</li>
         <li></li>
-      </lu>
+      </ul>
      <button id="entrada" class="black">SIGUIENTE</button>
-   </div>
+   </section>
 
     <div id="pantalla_2">
-      <!--<textarea id="mensaje" name="mensaje" rows="10s" cols="80" placeholder="Escribe aquí tu mensaje"></textarea><br>-->
-      <h1>ARACEFA</h1>
+      <h2>ARACEFA</h2>
       <h3>Empieza por cifrar o descifrar tu mensaje </h3>
-      <textarea type="text" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+      <textarea id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
       <h3>Elije tu código</h3>
       <p class="letterStyle">CÓDIGO:<input type="number" id="number" value=""></p>
       <button class="finalstyle" id="enciph">CIFRAR</button>
       <button class="finalstyle" id="deciph">DESCIFRAR</button>
-      <p type="text" class="letterStyle" placeholder="Tu mensaje es..."><span id="mensaje2"></span></p>
+      <textarea id="mensaje2" class="letterStyle" placeholder="Tu mensaje es..."></textarea>
      <button class="finalstyle" id="fin">FINALIZAR</button>
      <!-- <button>ENVIAR</button> -->
    </div>
