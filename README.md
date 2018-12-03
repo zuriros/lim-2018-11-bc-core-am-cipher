@@ -17,35 +17,35 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-##Problema propuesto:
+Problema propuesto:
 
  Los investigadores suelen recopilar, registrar y posteriormente presentar a sus colegas(compartir la información ) o a la base de datos de la oficina central, las pruebas o la información clasificada;se encontró algunos problemas, debido a la falta de seguridad para evitar que la información clasificada sea expuesta, la probabilidad de que estas sean descubiertas es altísima, ya que no disponen de un sistema de seguridad que pueda proteger esta información.
 
-![Sin titulo](../imagen/Detective-privado.jpg)
+![Sin titulo](/imagen/Detective-privado.jpg)
 
-##Resolución del problema:
+Resolución del problema:
 
 Se realizó la creación de la aplicación requerida ; el cual nos ayuda con el cifrado y descrifado de cualquier mensaje que sea enviado; estos van acompañados de un código para realizar dichas actividades ; estos son elegidos e introducidos por el usuario, así evitando que la información brindada sea expuesta.
  <!-- Para lo cual es primordial que el usuario indique el código que usara para cifrar el mensaje y nosotros lo usaremos para descifrar. -->
 
-##Objetivos del producto:
+## Objetivos del producto:
 
 Esta aplicación tiene como objetivo, elevar la protección de la información confidencial, para así brindar la completa seguridad de no ser expuesta, haciendo que el usuario se sienta protegido al compartir dicha información.
 
-##Usuarios del producto:
+## Usuarios del producto:
 
 Esta aplicación esta hecha para aquellas personas que son parte de casos de investigación, ya sea un caso simple o complejo, y requieren un medio por el cual puedan comunicarse sin temor a que la información sea expuesta; para lo cual podemos cifrar y descifrar cualquier mensaje.
 
 Persona con mensaje cifrado
 Persona con mensaje a cifrar
 
-##Instalación:
+## Instalación:
 
 Esta aplicacion no necesita instalacion , solo debemos de ingresar al siguiente enlace y podremos usarlo: https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src  
 
 
 
-![Sin titulo](../imagen/primera-foto.png)
+![Sin titulo](/imagen/primera-foto.png)
 
 
 ![Sin titulo](imagen/segunda-foto.png)
